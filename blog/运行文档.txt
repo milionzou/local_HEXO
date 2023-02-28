@@ -1,0 +1,7 @@
+hexo clean
+hexo generate
+gulp
+hexo server 或 hexo deploy
+
+
+hexo clean && hexo g & gulp && hexo s

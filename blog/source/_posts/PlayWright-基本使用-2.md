@@ -24,5 +24,7 @@ with sync_playwright() as p:  #初始化对象   #异步的话需要特别定义
 ### 异步起手式
 ```commandline
 #异步的话需要特别定义说明
-例如 async def main()  async with async_playwright() as p
+例如 
+async def main():
+    async with async_playwright() as p
 ```
